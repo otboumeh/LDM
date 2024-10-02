@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <br />
+    <form action="mensaje.html">
+    <fieldset>
+        <legend>Sugerencia</legend>
+        
+        <label for="mmail">Correo Electrónico <sup>*</sup>:</label>
+        <input
+            type="email"
+            id="mmail"
+            name="mmail"
+            placeholder="Escribe tu correo electrónico"
+            required
+        /><br /><br />
+
+        <label for="titulo">Título <sup>*</sup>:</label>
+        <input type="text" id="titulo" name="titulo" required /><br /><br />
+
+        <label for="descrip">Descripción:</label><br />
+        <textarea id="descrip" name="descrip" rows="5" cols="30" placeholder="Escribe tu descripción aquí..."></textarea><br /><br />
+
+        <input type="submit" value="Enviar Sugerencia" />
+        <input type="reset" value="Reset" />
+    </fieldset>
+</form>
+</body>
+</html>

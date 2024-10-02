@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <br>
+    <h1>Formulario de Registro</h1>
+    <form action="mensaje.html" method="get">
+        <fieldset>
+            <legend>Información Personal</legend>
+            <label for="name">Nombre <sup>*</sup>:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="apellido">Apellido <sup>*</sup>:</label>
+            <input type="text" id="apellido" name="apellido" required><br>
+
+            <label for="fecha">Fecha de Nacimiento <sup>*</sup>:</label>
+            <input type="date" id="fecha" name="fecha" required><br>
+
+            <label for="mail">Email <sup>*</sup>:</label>
+            <input type="email" id="mail" name="mail" required><br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Datos Adicionales</legend>
+            <label for="teri">Territorio:</label>
+            <select name="teri" id="teri">
+                <option value="option1">Bizkaia</option>
+                <option value="option2">Araba</option>
+                <option value="option3">Nafarroa</option>
+                <option value="option4">Gipuzkoa</option>
+            </select><br><br>
+
+            <label>Género:</label>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="hombre" name="genero" value="hombre">
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="mujer" name="genero" value="mujer"><br><br>
+
+            <label for="color">Color Preferido:</label>
+            <input type="color" id="color" name="color"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Credenciales</legend>
+            <label for="Usr">Usuario <sup>*</sup>:</label>        
+            <input type="text" id="Usr" name="Usr" required size="20"><br>
+
+            <label for="mdp">Clave <sup>*</sup>:</label>
+            <input type="password" id="mdp" name="mdp" required size="20"><br><br>
+
+            <input type="submit" value="Ok">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
