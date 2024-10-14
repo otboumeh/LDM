@@ -1,0 +1,26 @@
+.main-header{
+    border-top: 5px solid black;
+    border-bottom: 5px solid grey;
+    border-right: 5px solid greenyellow;
+    border-left: 5px solid blueviolet;
+    margin-bottom: 0.7em;
+}
+
+.content-section{
+    background-color: beige;
+    padding: 0.2em 0.5em;
+    margin-top: 0.5em;
+}
+.text{
+    border: dashed;
+    padding: 0.8em;
+}
+.example-list{
+border: 1px dotted;
+margin: 1em;
+}
+.example-table th{
+border: 1px solid grey; 
+width: 40%;
+background-color: brown;
+}

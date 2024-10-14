@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header id="header" class="main-header">
+        <h1 class="title">Ejemplo de HTML para CSS</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#seccion1">Sección 1</a></li>
+                <li><a href="#seccion2">Sección 2</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="seccion1" class="content-section">
+        <h2 class="section-title">Texto de Ejemplo</h2>
+        <p class="text">Este es un párrafo de texto que describe algo importante sobre el contenido del sitio.</p>
+        <p class="text">Puedes añadir más información aquí y darle formato con CSS.</p>
+        
+        <h3 class="list-title">Lista de Ejemplos:</h3>
+        <ul class="example-list">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+    </section>
+
+    <section id="seccion2" class="content-section">
+        <h2 class="section-title">Tablas y Imágenes</h2>
+
+        <h3 class="table-title">Tabla de Ejemplo:</h3>
+        <table class="example-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Juan</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>María</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="image-title">Imagen de Ejemplo:</h3>
+        <img src="https://via.placeholder.com/150" alt="Ejemplo de imagen" class="example-image">
+    </section>
+
+    <section id="formulario" class="content-section">
+        <h2 class="section-title">Formulario de Contacto</h2>
+        <form class="contact-form">
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input type="text" id="nombre" class="form-input" required>
+            
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" class="form-input" required>
+            
+            <label for="mensaje" class="form-label">Mensaje:</label>
+            <textarea id="mensaje" class="form-textarea" required></textarea>
+            
+            <button type="submit" class="form-button">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 Ejemplo de HTML</p>
+    </footer>
+
+</body>
+</html>
