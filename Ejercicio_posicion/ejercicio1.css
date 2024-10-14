@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(165, 42, 42, 0.514);
+}
+nav{
+    width: 10em;
+    height: 100%;
+    background-color: rgb(158, 18, 18);
+}
+div{
+    height: 500px;
+    background-color: rgba(158, 167, 35, 0.274);
+}
+footer{
+    height: 12%;
+    width: 100%;
+    background-color: forestgreen;
+}
