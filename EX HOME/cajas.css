@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    margin: 0;
+    height: 100%;
+    background-color: black;
+}
+header{
+    height: 15%;
+    background-color: sandybrown;
+}
+main{
+    height: 70%;
+    background-color: royalblue;
+}
+footer{
+    height: 15%;
+    background-color: gray;
+}
+.cajaPrincipal{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.caja1{
+    background-color: aqua;
+    display: flex;
+    height: 75%;
+    width: 20%;
+}
+.nav1{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 70%;
+    position: absolute;
+    right: 0;
+}
+.twitter img, .google img{
+    height: 40px;
+    width: auto;
+}
+.container{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    gap: 20px;  /*space between boxes*/
+}
+.text{
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+.line1{
+    line-height: 2.3; /* Increase the line height */
+    font-size: 17px;
+    font-weight: bold;
+}
+.line2, .line3{
+    font-size: 12px;
+}
+p{
+    color: white;
+}
+
